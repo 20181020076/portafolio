@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("./img/Whos-got-more-SleepyCalm-City-Pixel-Art-gif-Album-on-Imgur.gif");
+    background: cover;
+    background-attachment: fixed;
+    
+
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"header__img header__contenedor";
+    background-color: black;
+    
+    position: sticky;
+    top: 0;
+    height: 20%;
+    box-sizing: border-box
+    
+
+    
+
+}
+.header__img{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.header__img img{
+    max-width: 160px;
+    min-width: 100px;
+    height: 20vh;
+    border: 2px solid black;
+
+} 
+#header__contenedor{
+    
+    height: 50%;
+    background-color: white;
+    display: flex;
+    border: 2px solid black;
+    opacity: 0.4;
+    align-items: center;
+    justify-content:space-around;  
+}
+ 
+.header__contenedor__navbar li{
+    text-decoration: none;
+    list-style: none;
+    padding: auto;
+    
+
+} 
+
+.header__contenedor__navbar a{
+    text-decoration-line: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
+} 
+
+ .section{
+    display: grid;
+    margin: 15px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: justify;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:"section_biografia__text section__biografia__img"
+                        "section__mision__img section__mision__text"
+                        "section__vision__text section__vision__img";
+}
+
+.section__biografia__text{
+    border: 2px solid black;
+    margin: 10px;
+    margin-right: 0;
+    padding: 7px;
+    
+ 
+    
+}
+.section__biografia__img{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+}
+.section__biografia__img img{
+    max-width: 160px;
+    border: 2px solid black;
+    border-radius: 150px;
+    
+    
+}
+
+.section__mision__text{
+    border: 2px solid black;
+    margin: 10px;
+    margin-left: 0;
+    padding: 7px;
+}
+.section__vision__text{
+    border: 2px solid black;
+    margin: 10px;
+    margin-left: 0;
+    padding: 7px;
+}
+.section__vision__img{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.section__vision__img img{
+    max-width: 160px;
+    border: 2px solid black;
+    border-radius: 150px;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    border: 7px solid black;
+    position: fixed;
+    bottom: 0;
+    color: white;
+
+
+} 
+@media screen and (min-width:300px){
+    
+}
+@media screen and (min-width:1200px){
+    
+}

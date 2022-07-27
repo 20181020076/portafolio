@@ -93,7 +93,7 @@ body{
 .section__biografia__img{
     display: flex;
     justify-content:center;
-    align-items: flex-end;
+    align-items: center;
     padding: 0;
     margin: 0;
 }
@@ -118,9 +118,8 @@ body{
     padding: 7px;
 }
 .section__vision__img{
-    display: flex;
     justify-content:center;
-    align-items: flex-end;
+    text-align: center;
 }
 .section__vision__img img{
     max-width: 160px;
@@ -128,9 +127,9 @@ body{
     border-radius: 150px;
 }
 
-@media screen and (min-width:300px){
+@media (min-width:300px) and (max-width:576px){
     
 }
-@media screen and (min-width:1200px){
+@media (min-width:577px){
     
 }

@@ -1,0 +1,68 @@
+/*fijse que se improta este texto al css*/
+/*variavles con sass*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("./img/Whos-got-more-SleepyCalm-City-Pixel-Art-gif-Album-on-Imgur.gif");
+  background: cover;
+  background-attachment: fixed; }
+
+.nav__list {
+  padding: 20px; }
+
+.section {
+  display: grid;
+  margin: 15px;
+  margin-bottom: 50px;
+  color: white;
+  text-align: justify;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "section_biografia__text section__biografia__img" "section__mision__img section__mision__text" "section__vision__text section__vision__img"; }
+
+.section__biografia__text {
+  border: 2px solid black;
+  margin: 10px;
+  margin-right: 0;
+  padding: 7px; }
+
+.section__biografia__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0; }
+
+.section__biografia__img img {
+  max-width: 160px;
+  border: 2px solid black;
+  border-radius: 150px; }
+
+.section__mision__text {
+  border: 2px solid black;
+  margin: 10px;
+  margin-left: 0;
+  padding: 7px; }
+
+.section__vision__text {
+  border: 2px solid black;
+  margin: 10px;
+  margin-left: 0;
+  padding: 7px; }
+
+.section__vision__img {
+  justify-content: center;
+  text-align: center; }
+
+.section__vision__img img {
+  max-width: 160px;
+  border: 2px solid black;
+  border-radius: 150px; }
+
+@media (min-width: 577px) and (max-width: 1024px) {
+  .navbar__principal:hover {
+    font-size: 1.5em; } }

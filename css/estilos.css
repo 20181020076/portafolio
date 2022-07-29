@@ -5,46 +5,48 @@
   box-sizing: border-box; }
 
 header {
-  background-color: black;
-  border: 3px solid blue; }
+  background: #903152;
+  background: linear-gradient(196deg, #903152 0%, #373a43 44%);
+  height: 9vh;
+  vertical-align: middle;
+  border: 1px solid black; }
   header .header {
-    border: 3px solid blueviolet;
     color: white;
+    border: black;
     font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center; }
     header .header__logo {
-      font-size: 50px;
       color: pink;
-      border: 3px solid red; }
-    header .header__lista {
-      border: 3px solid red; }
-      header .header__lista__navbar ul {
-        display: flex;
-        flex-direction: row; }
-        header .header__lista__navbar ul li {
-          margin: auto;
-          text-decoration: none;
-          list-style: none; }
-          header .header__lista__navbar ul li a {
-            text-decoration-line: none;
-            color: white; }
+      margin-left: 10px; }
+    header .header__lista__navbar ul {
+      display: flex;
+      flex-direction: row; }
+      header .header__lista__navbar ul li {
+        margin: auto;
+        text-decoration: none;
+        list-style: none; }
+        header .header__lista__navbar ul li a {
+          text-decoration-line: none;
+          color: white; }
     header .header__boton {
-      border: 3px solid red;
-      font-size: 30px; }
+      font-size: 30px;
+      margin-right: 15px; }
 
 .inicio {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 3px solid aqua;
-  height: 100vh; }
+  height: 120vh;
+  background: #5572b8;
+  background: linear-gradient(164deg, #5572b8 0%, #373a43 33%, #373a43 70%, #9f3559 100%);
+  border: 1px solid black; }
   .inicio__presentacion {
     margin-top: 8vh;
-    border: 3px solid violet;
-    text-align: center; }
+    text-align: center;
+    color: white; }
     .inicio__presentacion h3 {
       color: pink;
       margin-bottom: 25px; }
@@ -54,4 +56,19 @@ header {
         color: pink; }
   .inicio__boton {
     border: 3px solid purple;
-    margin-bottom: 25vh; }
+    margin-bottom: 25vh;
+    background-color: transparent; }
+
+.curriculum {
+  height: 125vh; }
+
+.services {
+  height: 125vh;
+  background-color: black;
+  color: white; }
+
+.abilities {
+  height: 125vh; }
+
+.projects {
+  height: 125vh; }

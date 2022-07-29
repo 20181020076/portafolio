@@ -1,13 +1,16 @@
 .inicio{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 3px solid aqua;
-    height: 100vh;
+    height: 120vh;
+    background: rgb(85,114,184);
+    background: linear-gradient(164deg, rgba(85,114,184,1) 0%, rgba(55,58,67,1) 33%, rgba(55,58,67,1) 70%, rgba(159,53,89,1) 100%);
+    border: 1px solid black;
     &__presentacion{
         margin-top: 8vh;
-        border: 3px solid violet;
         text-align: center;
+        color: white;
         h3{
             color: pink;
             margin-bottom: 25px;
@@ -23,5 +26,6 @@
     &__boton{
         border: 3px solid purple;
         margin-bottom: 25vh;
+        background-color: transparent;
     }
 }

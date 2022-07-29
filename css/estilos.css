@@ -1,0 +1,57 @@
+/*VARIABLES COLORES*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+header {
+  background-color: black;
+  border: 3px solid blue; }
+  header .header {
+    border: 3px solid blueviolet;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    header .header__logo {
+      font-size: 50px;
+      color: pink;
+      border: 3px solid red; }
+    header .header__lista {
+      border: 3px solid red; }
+      header .header__lista__navbar ul {
+        display: flex;
+        flex-direction: row; }
+        header .header__lista__navbar ul li {
+          margin: auto;
+          text-decoration: none;
+          list-style: none; }
+          header .header__lista__navbar ul li a {
+            text-decoration-line: none;
+            color: white; }
+    header .header__boton {
+      border: 3px solid red;
+      font-size: 30px; }
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 3px solid aqua;
+  height: 100vh; }
+  .inicio__presentacion {
+    margin-top: 8vh;
+    border: 3px solid violet;
+    text-align: center; }
+    .inicio__presentacion h3 {
+      color: pink;
+      margin-bottom: 25px; }
+    .inicio__presentacion h1 {
+      margin-bottom: 25px; }
+      .inicio__presentacion h1 span {
+        color: pink; }
+  .inicio__boton {
+    border: 3px solid purple;
+    margin-bottom: 25vh; }

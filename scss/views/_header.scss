@@ -1,0 +1,50 @@
+header{
+    background-color: black;
+    border: 3px solid blue;
+    
+    .header{
+        border: 3px solid blueviolet;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        &__logo{
+            font-size: 50px;
+            color:pink;
+            border: 3px solid red;
+        }
+        &__lista{
+            border: 3px solid red;
+            
+
+            &__navbar{
+                
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    
+                    li{
+                        margin: auto;
+                        text-decoration: none;
+                        list-style: none;
+                        
+                        
+                        a{
+                            text-decoration-line: none;
+                            color: white;
+                        }
+                    }
+
+                }
+            }
+        }  
+        &__boton{
+            border: 3px solid red;
+            font-size: 30px;
+        }
+        
+    }
+}

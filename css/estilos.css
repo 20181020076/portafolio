@@ -44,7 +44,9 @@ header {
   background: linear-gradient(164deg, #5572b8 0%, #373a43 33%, #373a43 70%, #9f3559 100%);
   border: 1px solid black; }
   .inicio__presentacion {
-    margin-top: 8vh;
+    margin-top: 9vh;
+    margin-right: 20px;
+    margin-left: 20px;
     text-align: center;
     color: white; }
     .inicio__presentacion h3 {
@@ -65,17 +67,64 @@ header {
   flex-direction: column; }
   .curriculum__img {
     display: flex;
-    border: 1px solid red;
     height: 45%;
     justify-content: center;
     align-items: center; }
     .curriculum__img img {
-      width: 50%; }
+      width: 50%;
+      border: 2px solid black; }
+  .curriculum__about {
+    text-align: center;
+    margin-bottom: 0; }
+  .curriculum h1 {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0; }
+  .curriculum span {
+    color: pink; }
+  .curriculum h2 {
+    margin: 20px;
+    margin-bottom: 0;
+    margin-top: 30px; }
+  .curriculum__descripcion {
+    margin: 20px;
+    text-align: justify; }
+  .curriculum__boton {
+    border-radius: 50px;
+    width: 35%;
+    margin: 20px; }
 
 .services {
-  height: 125vh;
-  background-color: black;
-  color: white; }
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  color: #111135;
+  align-items: center;
+  padding-bottom: 20px; }
+  .services__title {
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 50px; }
+  .services__contenedor {
+    display: flex;
+    flex-direction: column; }
+    .services__contenedor__cards {
+      border: 1px solid red;
+      width: 300px;
+      height: 200px;
+      background-color: white;
+      text-align: center;
+      margin-bottom: 15px; }
+      .services__contenedor__cards__icon {
+        background-color: #d3d3d3;
+        border-radius: 50px;
+        border-color: black;
+        width: 50px;
+        height: 50px;
+        padding: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px; }
 
 .abilities {
   height: 125vh; }

@@ -1,4 +1,54 @@
 .abilities{
-    height: 125vh;
-    
+    h1{
+        text-align: center;
+        margin: 10px;
+
+    }
+    background: linear-gradient(#eb5a5acc,rgba(33,16,16,.8)),url('../../img/abilities.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-bottom: 50px;
+    &__container{
+       
+        align-items: center;
+        &__info{
+            display: flex;
+            justify-content: space-between;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-right: 20px;
+            &__lista{
+                border: 1px solid purple;
+                display: inline-block;
+                margin-left: 20px;
+                margin-right: 20px;
+                
+                height: 10px;
+                width: 10px;
+                background-color: #fff;
+                
+                
+            }
+            
+            &__porcentaje{
+
+            }
+
+        }
+        &__barra{
+            background-color: #919191;
+            margin-right: 20px;
+            height: 6px;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+        
+    }
+
 }

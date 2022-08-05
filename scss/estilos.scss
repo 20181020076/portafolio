@@ -1,5 +1,7 @@
 //UTILIDADES
 @import "utilities/variables";
+@import "utilities/keyframes";
+
 //BASE
 @import "base/reset";
 //VIEWS
@@ -10,4 +12,7 @@
 @import "views/abilities";
 @import "views/projects";
 @import "views/phone";
+@import "views/footer";
+
+@import "utilities/mediaqueries";
 

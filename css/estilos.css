@@ -1,4 +1,22 @@
 /*VARIABLES COLORES*/
+@keyframes progreso1 {
+  0% {
+    width: 0; }
+  100% {
+    width: 90%; } }
+
+@keyframes progreso2 {
+  0% {
+    width: 0; }
+  100% {
+    width: 90%; } }
+
+@keyframes progreso3 {
+  0% {
+    width: 0; }
+  100% {
+    width: 80%; } }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -40,6 +58,7 @@ header {
   flex-direction: column;
   justify-content: space-around;
   height: 120vh;
+  min-height: 600px;
   background: #5572b8;
   background: linear-gradient(164deg, #5572b8 0%, #373a43 33%, #373a43 70%, #9f3559 100%);
   border: 1px solid black; }
@@ -63,6 +82,7 @@ header {
 
 .curriculum {
   display: flex;
+  min-height: 600px;
   height: 125vh;
   flex-direction: column; }
   .curriculum__img {
@@ -100,7 +120,8 @@ header {
   background-color: #f3f3f3;
   color: #111135;
   align-items: center;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  min-height: 800px; }
   .services__title {
     text-decoration: underline;
     text-align: center;
@@ -134,10 +155,12 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  color: white; }
   .abilities h1 {
     text-align: center;
-    margin: 10px; }
+    margin: 10px;
+    margin-bottom: 20px; }
   .abilities__container {
     align-items: center; }
     .abilities__container__info {
@@ -157,10 +180,90 @@ header {
         background-color: #fff; }
     .abilities__container__barra {
       background-color: #919191;
-      margin-right: 20px;
       height: 6px;
       margin-left: 20px;
-      margin-right: 20px; }
+      margin-right: 20px;
+      margin-bottom: 20px; }
+      .abilities__container__barra__barra-progreso1 {
+        background-color: #fff;
+        width: 95%;
+        height: 6px;
+        animation: progreso1 2s forwards; }
+      .abilities__container__barra__barra-progreso2 {
+        background-color: #fff;
+        width: 95%;
+        height: 6px;
+        animation: progreso2 2s forwards; }
+      .abilities__container__barra__barra-progreso3 {
+        background-color: #fff;
+        width: 80%;
+        height: 6px;
+        animation: progreso3 2s forwards; }
+      .abilities__container__barra__barra-progreso4 {
+        background-color: #fff;
+        width: 80%;
+        height: 6px;
+        animation: progreso3 2s forwards; }
 
 .projects {
-  height: 125vh; }
+  margin-top: 20px;
+  margin-bottom: 40px; }
+  .projects h1 {
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 15px; }
+  .projects__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px; }
+    .projects__contenedor__proyecto {
+      width: 300px;
+      height: 200px;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .projects__contenedor__proyecto img {
+        width: 100%; }
+      .projects__contenedor__proyecto__info h4 {
+        font-size: 1.2rem; }
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  padding-bottom: 50px;
+  align-items: center; }
+  .phone h1 {
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px; }
+  .phone__contenedor {
+    width: 80%; }
+    .phone__contenedor__form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 25px; }
+      .phone__contenedor__form__input {
+        border-radius: 50px;
+        padding-left: 10px; }
+    .phone__contenedor__boton {
+      border-radius: 50px;
+      width: 100px; }
+
+footer {
+  background-color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding: 30px 0; }
+  footer .footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: white; }
+    footer .footer p {
+      text-decoration: none; }
+    footer .footer__redes {
+      display: flex;
+      gap: 10px; }

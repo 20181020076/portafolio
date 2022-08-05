@@ -2,6 +2,7 @@
     h1{
         text-align: center;
         margin: 10px;
+        margin-bottom: 20px;
 
     }
     background: linear-gradient(#eb5a5acc,rgba(33,16,16,.8)),url('../../img/abilities.jpg');
@@ -12,6 +13,7 @@
     flex-direction: column;
     justify-content:center;
     padding-bottom: 50px;
+    color: white;
     &__container{
        
         align-items: center;
@@ -35,19 +37,57 @@
                 
             }
             
-            &__porcentaje{
-
-            }
 
         }
         &__barra{
             background-color: #919191;
-            margin-right: 20px;
             height: 6px;
             margin-left: 20px;
             margin-right: 20px;
+            margin-bottom: 20px;
+            &__barra-progreso1{
+                background-color: #fff;
+                // margin-right: 20px;
+                // height: 6px;
+                // margin-left: 20px;
+                // margin-right: 20px;    
+                width: 95%;
+                height: 6px;
+                animation: progreso1 2s forwards;
+            }
+            &__barra-progreso2{
+                background-color: #fff;
+                // margin-right: 20px;
+                // height: 6px;
+                // margin-left: 20px;
+                // margin-right: 20px;    
+                width: 95%;
+                height: 6px;
+                animation: progreso2 2s forwards;    
+            }
+            &__barra-progreso3{
+                background-color: #fff;
+                // margin-right: 20px;
+                // height: 6px;
+                // margin-left: 20px;
+                // margin-right: 20px;    
+                width: 80%;
+                height: 6px;
+                animation: progreso3 2s forwards;
+            }
+            &__barra-progreso4{
+                background-color: #fff;
+                // margin-right: 20px;
+                // height: 6px;
+                // margin-left: 20px;
+                // margin-right: 20px;    
+                width: 80%;
+                height: 6px;
+                animation: progreso3 2s forwards;
+            }
             
         }
+        
         
     }
 

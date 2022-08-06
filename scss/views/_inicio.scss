@@ -3,12 +3,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 120vh;
     min-height: 600px;
     background: rgb(85,114,184);
     background: linear-gradient(164deg, rgba(85,114,184,1) 0%, rgba(55,58,67,1) 33%, rgba(55,58,67,1) 70%, rgba(159,53,89,1) 100%);
     border: 1px solid black;
+    padding-top: 20px;
     &__presentacion{
+        
         margin-top: 9vh;
         margin-right: 20px;
         margin-left: 20px;
@@ -27,7 +28,7 @@
         }
     }
     &__boton{
-        margin-bottom: 25vh;
         background-color: transparent;
+        
     }
 }

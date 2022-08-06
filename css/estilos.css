@@ -22,46 +22,46 @@
   padding: 0px;
   box-sizing: border-box; }
 
-header {
+.header {
   background: #903152;
   background: linear-gradient(196deg, #903152 0%, #373a43 44%);
   height: 9vh;
   vertical-align: middle;
-  border: 1px solid black; }
-  header .header {
-    color: white;
-    border: black;
-    font-size: 20px;
+  border: 1px solid black;
+  width: 100%;
+  color: white;
+  border: black;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .header__logo {
+    color: pink;
+    margin-left: 10px; }
+  .header__lista__navbar ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; }
-    header .header__logo {
-      color: pink;
-      margin-left: 10px; }
-    header .header__lista__navbar ul {
-      display: flex;
-      flex-direction: row; }
-      header .header__lista__navbar ul li {
-        margin: auto;
-        text-decoration: none;
-        list-style: none; }
-        header .header__lista__navbar ul li a {
-          text-decoration-line: none;
-          color: white; }
-    header .header__boton {
-      font-size: 30px;
-      margin-right: 15px; }
+    flex-direction: row; }
+    .header__lista__navbar ul li {
+      margin: auto;
+      text-decoration: none;
+      list-style: none; }
+      .header__lista__navbar ul li a {
+        text-decoration-line: none;
+        color: white; }
+  .header__boton {
+    font-size: 30px;
+    margin-right: 15px; }
 
 .inicio {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 120vh;
   min-height: 600px;
   background: #5572b8;
   background: linear-gradient(164deg, #5572b8 0%, #373a43 33%, #373a43 70%, #9f3559 100%);
-  border: 1px solid black; }
+  border: 1px solid black;
+  padding-top: 20px; }
   .inicio__presentacion {
     margin-top: 9vh;
     margin-right: 20px;
@@ -76,15 +76,14 @@ header {
       .inicio__presentacion h1 span {
         color: pink; }
   .inicio__boton {
-    margin-bottom: 25vh;
     background-color: transparent; }
 
 .curriculum {
   display: flex;
   min-height: 600px;
-  height: 125vh;
   flex-direction: column; }
   .curriculum__img {
+    margin-top: 20px;
     display: flex;
     height: 45%;
     justify-content: center;
@@ -250,18 +249,20 @@ header {
       border-radius: 50px;
       width: 100px; }
 
-footer {
+.footer {
+  display: flex;
+  justify-content: space-around;
   background-color: #000;
   text-decoration: none;
+  width: 100%;
   text-align: center;
-  padding: 30px 0; }
-  footer .footer {
-    text-align: center;
+  vertical-align: middle;
+  color: white; }
+  .footer p {
+    text-decoration: none;
+    vertical-align: middle; }
+  .footer__redes {
+    border: 1px solid red;
     display: flex;
-    justify-content: space-around;
-    color: white; }
-    footer .footer p {
-      text-decoration: none; }
-    footer .footer__redes {
-      display: flex;
-      gap: 10px; }
+    gap: 10px;
+    align-items: center; }

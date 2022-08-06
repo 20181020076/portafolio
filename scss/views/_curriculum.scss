@@ -1,10 +1,11 @@
 .curriculum{
     display: flex;
     min-height: 600px;
-    height: 125vh;
+
     
     flex-direction: column;
     &__img{
+        margin-top: 20px;
         display: flex;
         height: 45%;
         justify-content: center;

@@ -12,6 +12,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
     
     &__logo{
         
@@ -20,17 +21,20 @@
     }
     &__lista{
         display:none;
-
+        height: 100%;
+        
         &__navbar{
-            
+
             ul{
                 display: flex;
                 flex-direction: row;
-                
+                height: 100%;
+                align-items: center;
                 li{
                     margin: auto;
                     text-decoration: none;
                     list-style: none;
+                    
                     
                     
                     a{

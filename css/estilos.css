@@ -40,10 +40,13 @@
     color: pink;
     margin-left: 10px; }
   .header__lista {
-    display: none; }
+    display: none;
+    height: 100%; }
     .header__lista__navbar ul {
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      height: 100%;
+      align-items: center; }
       .header__lista__navbar ul li {
         margin: auto;
         text-decoration: none;
@@ -59,7 +62,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 600px;
+  min-height: 100vh;
   background: #5572b8;
   background: linear-gradient(164deg, #5572b8 0%, #373a43 33%, #373a43 70%, #9f3559 100%);
   border: 1px solid black;
@@ -285,8 +288,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px; } }
+    gap: 50px; }
+  .curriculum__img img {
+    width: 300px; } }
 
 @media (min-width: 768px) {
-  .header__lista {
-    font-size: 20px; } }
+  .header {
+    font-size: 40px; }
+    .header__lista {
+      font-size: 25px; } }
+
+@media (min-width: 992px) {
+  .header {
+    font-size: 45px; }
+    .header__lista {
+      font-size: 30px; } }

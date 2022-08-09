@@ -33,12 +33,30 @@
             gap: 50px;
         }
     }
-}
-// desktop view
-@media (min-width:768px){
-    .header{
-        &__lista{
-            font-size: 20px;
+    .curriculum{
+        &__img{
+            img{
+                width: 300px;
+            }
         }
     }
+}
+// tablets 2 view
+@media (min-width:768px){
+    .header{
+        font-size: 40px;
+        &__lista{
+            font-size: 25px;
+        }
+    }
+    
+}
+@media (min-width:992px){
+    .header{
+        font-size: 45px;
+        &__lista{
+            font-size: 30px;
+        }
+    }
+    
 }

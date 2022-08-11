@@ -1,11 +1,12 @@
 .curriculum{
     display: flex;
-    min-height: 600px;
-
-    
-    flex-direction: column;
+    min-height: 100hv;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-around;
     &__img{
-        margin-top: 20px;
+        margin-top: 40px;
+        margin-bottom: 10px;
         display: flex;
         height: 45%;
         justify-content: center;
@@ -46,5 +47,6 @@
         border-radius: 50px;
         width: 35%;
         margin: 20px;
+        margin-bottom: 30px;
     }
 }

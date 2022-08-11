@@ -1,19 +1,129 @@
-<header>
-    <div class="header">
-        <div class="header__logo"><a href="/index.html">[DR]</a></div>
-        <div class="header__lista">
-            <nav class="header__lista__navbar">
-                <ul>
-                    <li><a href="/index.html" class="seleccionado">Home</a></li>
-                    <li><a href="/pages/about.html">About me</a></li>
-                    <li><a href="./pages/services.html" >Services</a></li>
-                    <li><a href="#">Portafolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portafolio, diego, alenadro rojas, web developer, programador, HTML, CSS, SASS, machine learning, big data, mongodb">
+    <meta name="description" content="Contactame si tienes proyectos y quieres plasmarlos en la web o analizar datos existentes sobre tu negocio, Consultorias, Big Data, Machine learning, data analisis">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/estilos.css">
+    
+    <title>Portafolio - Diego Alejandro Rojas Reina</title>
+</head>
+<body>
+
+    <!-- HEADER BARRA DE NAVEGACION -->
+
+    <header>
+        <div class="header">
+            <div class="header__logo"><a href="/index.html">[DR]</a></div>
+            <div class="header__lista">
+                <nav class="header__lista__navbar">
+                    <ul>
+                        <li><a href="/index.html" class="seleccionado">Home</a></li>
+                        <li><a href="/pages/about.html">About me</a></li>
+                        <li><a href="/pages/services.html" >Services</a></li>
+                        <li><a href="/pages/portafolio.html">Portafolio</a></li>
+                        <li><a href="/pages/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__boton">
+                <i onclick= menu() class="fa-solid fa-bars"></i>
+            </div>
+    </div>
+    </header>
+
+    <!-- SECCION PRINCIPAL -->
+    <main>
+        <!-- PROJECTS -->
+
+        <section class="projects">
+            <h1>My Projects</h1>
+            <div class="projects__contenedor">
+                <div class="projects__contenedor__proyecto">
+                    <img src="/img/cooming-soon.jpg" alt="">
+                    <div class="projects__contenedor__proyecto__info">
+                        <h4>coming-soon</h4>
+                        <p>front end challenge</p>
+                    </div>
+                </div>
+                <div class="projects__contenedor__proyecto">
+                    <img src="/img/cooming-soon.jpg">
+                    <div class="projects__contenedor__proyecto__info">
+                        <h4>coming-soon</h4>
+                        <p>front end challenge</p>
+                    </div>
+                </div>
+                <div class="projects__contenedor__proyecto">
+                    <img src="/img/cooming-soon.jpg">
+                    <div class="projects__contenedor__proyecto__info">
+                        <h4>coming-soon</h4>
+                        <p>front end challenge</p>
+                    </div>
+                </div>
+                <div class="projects__contenedor__proyecto">
+                    <img src="/img/cooming-soon.jpg">
+                    <div class="projects__contenedor__proyecto__info">
+                        <h4>coming-soon</h4>
+                        <p>front end challenge</p>
+                    </div>
+                </div>
+                <div class="projects__contenedor__proyecto">
+                    <img src="/img/cooming-soon.jpg">
+                    <div class="projects__contenedor__proyecto__info">
+                        <h4>coming-soon</h4>
+                        <p>front end challenge</p>
+                    </div>
+                </div>
+                <div class="projects__contenedor__proyecto">
+                    <img src="/img/cooming-soon.jpg">
+                    <div class="projects__contenedor__proyecto__info">
+                        <h4>coming-soon</h4>
+                        <p>front end challenge</p>
+                    </div>
+                </div>
+                <div class="projects__contenedor__proyecto">
+                    <img src="/img/cooming-soon.jpg">
+                    <div class="projects__contenedor__proyecto__info">
+                        <h4>coming-soon</h4>
+                        <p>front end challenge</p>
+                    </div>
+                </div>
+                <div class="projects__contenedor__proyecto">
+                    <img src="/img/cooming-soon.jpg">
+                    <div class="projects__contenedor__proyecto__info">
+                        <h4>coming-soon</h4>
+                        <p>front end challenge</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+    </main>
+    <!-- FOOTER -->
+
+    <footer>
+        <div  class="footer">
+            <p>gracias por visitarnos</p>
+            <div class="footer__redes">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-whatsapp"></i>
+                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
         </div>
-        <div class="header__boton">
-            <i onclick= menu() class="fa-solid fa-bars"></i>
-        </div>
-</div>
-</header>
+    </footer> 
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+    
+</body>
+</html>

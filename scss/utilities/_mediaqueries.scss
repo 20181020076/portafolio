@@ -1,6 +1,19 @@
 // movile view
 @media (min-width:320px) and (max-width:575px) {
-    
+    .curriculum{
+        flex-direction: column;
+        margin-top: 0;
+        &__img{
+            border: 1px solid red;
+            height: 200px;
+            img{
+                max-width: 160px;
+            }
+        }
+    }
+    .footer{
+        bottom: 0;
+    }
 }
 // tablet view
 @media (min-width:576px){
@@ -34,6 +47,7 @@
         }
     }
     .curriculum{
+        min-height: 80vh;
         &__img{
             img{
                 width: 300px;
@@ -44,12 +58,15 @@
 // tablets 2 view
 @media (min-width:768px){
     .header{
+        height: 11vh;
         font-size: 40px;
         &__lista{
             font-size: 25px;
         }
     }
-    
+    .footer{
+        bottom: 0;
+    }
 }
 @media (min-width:992px){
     .header{
@@ -57,6 +74,29 @@
         &__lista{
             font-size: 30px;
         }
+        .phone{
+            &__contenedor{
+                width: 800px;
+            }
+        }
+    }
+    .services{
+        &__contenedor{
+            &__cards{
+                width: 350px;
+                height: 250px;
+            }
+        }
     }
     
+}
+@media (min-width:1120px) {
+    .services{
+        &__contenedor{
+            &__cards{
+                width: 425px;
+                height: 325px;
+            }
+        }
+    }
 }

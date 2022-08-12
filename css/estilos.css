@@ -25,7 +25,7 @@
 .header {
   background: #903152;
   background: linear-gradient(196deg, #903152 0%, #373a43 44%);
-  height: 9vh;
+  height: 10vh;
   vertical-align: middle;
   border: 1px solid black;
   width: 100%;
@@ -64,7 +64,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 100vh;
+  min-height: 81vh;
   background: #5572b8;
   background: linear-gradient(164deg, #5572b8 0%, #373a43 33%, #373a43 70%, #9f3559 100%);
   border: 1px solid black;
@@ -271,9 +271,9 @@
     height: 250px; }
 
 footer {
-  position: relative;
   width: 100%;
-  bottom: 0; }
+  bottom: 0;
+  height: 10vh; }
   footer .footer {
     display: flex;
     justify-content: space-around;
@@ -282,7 +282,8 @@ footer {
     width: 100%;
     text-align: center;
     vertical-align: middle;
-    color: white; }
+    color: white;
+    height: 100%; }
     footer .footer p {
       text-decoration: none;
       vertical-align: middle; }

@@ -1,7 +1,7 @@
 footer{
-    position: relative;
     width: 100%;
     bottom: 0;
+    height: 10vh;
     
     .footer{
         display: flex;
@@ -12,6 +12,7 @@ footer{
         text-align: center;
         vertical-align: middle;
         color:white;
+        height: 100%;
         
         
         p{

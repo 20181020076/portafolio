@@ -21,9 +21,14 @@
     <header>
         <div class="header">
             <div class="header__logo"><a href="/index.html">[DR]</a></div>
+            
+            <div class="header__boton">
+                <i class="fa-solid fa-bars" onclick="changeStyle()"></i>
+            </div>
+
             <div class="header__lista">
                 <nav class="header__lista__navbar">
-                    <ul>
+                    <ul class="header__lista__navbar__ul">
                         <li><a href="/index.html" class="seleccionado">Home</a></li>
                         <li><a href="/pages/about.html">About me</a></li>
                         <li><a href="/pages/services.html" >Services</a></li>
@@ -32,11 +37,22 @@
                     </ul>
                 </nav>
             </div>
-            <div class="header__boton">
-                <i onclick= menu() class="fa-solid fa-bars"></i>
-            </div>
-    </div>
+            
+        </div>
     </header>
+    <div class="menu__desplegable" id="menu">
+        <div class="menu__desplegable__contenedor">
+            <nav class="menu__desplegable__contenedor__nav">
+                <ul>
+                    <li><a href="/index.html" class="seleccionado">Home</a></li>
+                    <li><a href="/pages/about.html">About me</a></li>
+                    <li><a href="/pages/services.html" >Services</a></li>
+                    <li><a href="/pages/portafolio.html">Portafolio</a></li>
+                    <li><a href="/pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
     <!-- SECCION PRINCIPAL -->
     <main>
@@ -46,14 +62,14 @@
                 <h1>My Name is <span>Diego Rojas</span>, web developer</h1>
                 <p>Let me show you more about me ;)</p>
             </section>
-            <input type="button" value="hola" class="inicio__boton">
+            <!-- <input type="button" value="hola" class="inicio__boton"> -->
         </section> 
     </main>
     <!-- FOOTER -->
 
     <footer>
         <div  class="footer">
-            <p>gracias por visitarnos</p>
+            <p>Thanks for visiting us, Look for me in my social media</p>
             <div class="footer__redes">
                 <i class="fa-brands fa-square-facebook"></i>
                 <i class="fa-brands fa-square-whatsapp"></i>
@@ -65,7 +81,7 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <script src="/js/app.js"></script>
+    <script src="/js/app.js"></script> 
     
 </body>
 </html>

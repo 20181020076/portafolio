@@ -5,14 +5,15 @@
 //BASE
 @import "base/reset";
 //VIEWS
-@import "views/header";
+@import "components/header";
+@import "components/menuDesplegable";
 @import "views/inicio";
 @import "views/curriculum";
 @import "views/services";
 @import "views/abilities";
 @import "views/projects";
 @import "views/phone";
-@import "views/footer";
+@import "components/footer";
 
 //mediaqueries
 @import "utilities/mediaqueries";

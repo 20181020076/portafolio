@@ -53,6 +53,16 @@
     }
     footer{
         height: 10vh;
+        
+        .footer{
+            p{
+                font-size: 17px;
+            }
+            &__redes{
+                font-size: 30px;
+            }
+            
+        }
     }
     .menu__desplegable{
         display: none;

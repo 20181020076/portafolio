@@ -138,6 +138,7 @@
     text-align: justify; }
   .curriculum__boton {
     border-radius: 50px;
+    min-width: 120px;
     width: 35%;
     margin: 20px;
     margin-bottom: 30px; }
@@ -310,8 +311,8 @@ footer {
       margin-left: 5px;
       margin-right: 5px;
       align-items: center;
-      font-size: 10px;
-      width: 200px; }
+      font-size: 13px;
+      width: 250px; }
     footer .footer__redes {
       height: 100%;
       display: flex;
@@ -353,6 +354,10 @@ footer {
       width: 300px; }
   footer {
     height: 10vh; }
+    footer .footer p {
+      font-size: 17px; }
+    footer .footer__redes {
+      font-size: 30px; }
   .menu__desplegable {
     display: none; } }
 

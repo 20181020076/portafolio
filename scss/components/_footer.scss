@@ -6,23 +6,35 @@ footer{
     .footer{
         display: flex;
         justify-content: space-around;
-        background-color: #000;
+        background: rgb(144,49,82);
+        background: linear-gradient(196deg, rgba(144,49,82,1) 0%, rgba(55,58,67,1) 44%);
         text-decoration: none;
         width: 100%;
+        height: 100%;
         text-align: center;
         align-items: center;
         color:white;
-        height: 100%;
         
         
         p{
+
             text-decoration: none;
             vertical-align: middle;
+            margin-left: 5px;
+            margin-right: 5px;
+            align-items: center;
+            font-size: 10px;
+            width: 200px;
         }
         &__redes{
+
+            height: 100%;;
             display: flex;
             gap: 10px;
             align-items: center;
+            margin-right: 5px;
+            margin-left: 5px;
+            
 
         }
     }

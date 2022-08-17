@@ -4,15 +4,12 @@
         flex-direction: column;
         margin-top: 0;
         &__img{
-            border: 1px solid red;
+            
             height: 200px;
             img{
                 max-width: 160px;
             }
         }
-    }
-    .footer{
-        bottom: 0;
     }
 }
 // tablet view
@@ -53,6 +50,9 @@
                 width: 300px;
             }
         }
+    }
+    footer{
+        height: 10vh;
     }
     .menu__desplegable{
         display: none;

@@ -17,14 +17,19 @@
 </head>
 <body>
 
-    <!-- HEADER BARRA DE NAVEGACION -->
+    <!-- BARRA DE NAVEGACION -->
 
     <header>
         <div class="header">
             <div class="header__logo"><a href="/index.html">[DR]</a></div>
+            
+            <div class="header__boton">
+                <i class="fa-solid fa-bars" onclick="changeStyle()"></i>
+            </div>
+
             <div class="header__lista">
                 <nav class="header__lista__navbar">
-                    <ul>
+                    <ul class="header__lista__navbar__ul">
                         <li><a href="/index.html" class="seleccionado">Home</a></li>
                         <li><a href="/pages/about.html">About me</a></li>
                         <li><a href="/pages/services.html" >Services</a></li>
@@ -33,11 +38,22 @@
                     </ul>
                 </nav>
             </div>
-            <div class="header__boton">
-                <i onclick= menu() class="fa-solid fa-bars"></i>
-            </div>
-    </div>
+            
+        </div>
     </header>
+    <div class="menu__desplegable" id="menu">
+        <div class="menu__desplegable__contenedor">
+            <nav class="menu__desplegable__contenedor__nav">
+                <ul>
+                    <li><a href="/index.html" class="seleccionado">Home</a></li>
+                    <li><a href="/pages/about.html">About me</a></li>
+                    <li><a href="/pages/services.html" >Services</a></li>
+                    <li><a href="/pages/portafolio.html">Portafolio</a></li>
+                    <li><a href="/pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
     <!-- SECCION PRINCIPAL -->
     <main>

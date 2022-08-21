@@ -172,6 +172,8 @@
       background-color: white;
       text-align: center;
       margin: 20px; }
+      .services__contenedor__cards p {
+        padding: 5px; }
       .services__contenedor__cards__icon {
         background-color: #d3d3d3;
         border-radius: 50px;
@@ -340,7 +342,8 @@ footer {
       .curriculum__principal__img__boton {
         display: none; }
   .services__contenedor__cards p {
-    font-size: 15px; } }
+    padding: 5px;
+    font-size: 14px; } }
 
 @media (min-width: 576px) {
   .header {
@@ -381,6 +384,9 @@ footer {
           margin-bottom: 50px; }
     .curriculum #boton__afuera {
       display: none; }
+  .phone__map iframe {
+    height: 350px;
+    width: 350px; }
   footer {
     height: 10vh; }
     footer .footer p {
@@ -396,6 +402,9 @@ footer {
     font-size: 40px; }
     .header__lista {
       font-size: 25px; }
+  .phone__map iframe {
+    height: 400px;
+    width: 400px; }
   .footer {
     bottom: 0; } }
 
@@ -408,7 +417,10 @@ footer {
       width: 800px; }
   .services__contenedor__cards {
     width: 350px;
-    height: 250px; } }
+    height: 250px; }
+  .phone__map iframe {
+    height: 450px;
+    width: 700px; } }
 
 @media (min-width: 1120px) {
   .services__contenedor__cards {

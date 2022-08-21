@@ -21,7 +21,8 @@
         &__contenedor{
             &__cards{
                 p{
-                    font-size: 15px;
+                    padding: 5px;
+                    font-size: 14px;
                 }
             }
         }
@@ -90,6 +91,14 @@
         }
         
     }
+    .phone{
+        &__map{
+            iframe{
+                height: 350px;
+                width: 350px;
+            }
+        }
+    }
     footer{
         height: 10vh;
         
@@ -116,9 +125,18 @@
             font-size: 25px;
         }
     }
+    .phone{
+        &__map{
+            iframe{
+                height: 400px;
+                width: 400px;
+            }
+        }
+    }
     .footer{
         bottom: 0;
     }
+    
 }
 @media (min-width:992px){
     .header{
@@ -137,6 +155,14 @@
             &__cards{
                 width: 350px;
                 height: 250px;
+            }
+        }
+    }
+    .phone{
+        &__map{
+            iframe{
+                height: 450px;
+                width: 700px;
             }
         }
     }

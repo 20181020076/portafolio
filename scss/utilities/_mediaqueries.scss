@@ -3,11 +3,26 @@
     .curriculum{
         flex-direction: column;
         margin-top: 0;
-        &__img{
+        &__principal{
+            &__img{
             
-            height: 200px;
-            img{
-                max-width: 160px;
+                height: 200px;
+                img{
+                    max-width: 160px;
+                }
+                &__boton{
+                    display: none;
+                }
+            }
+        }
+        
+    }
+    .services{
+        &__contenedor{
+            &__cards{
+                p{
+                    font-size: 15px;
+                }
             }
         }
     }
@@ -33,6 +48,10 @@
         &__contenedor{
             flex-direction: row;
             flex-wrap: wrap;
+            &__cards{
+                width: 325px;
+                height: 225px;
+            }
         }
     }
     .projects{
@@ -45,11 +64,31 @@
     }
     .curriculum{
         min-height: 80vh;
-        &__img{
-            img{
-                width: 300px;
+        &__principal{
+            flex-direction: row;
+            &__img{
+                flex-direction: column;
+                justify-content: space-around;
+                img{
+                    width: 300px;
+                }
+                &__boton{
+                    margin-top: 50px;
+                }
+            }
+            &__text{
+                margin-left: 20px;
+                max-width: 700px;
+                h1{
+                    margin-bottom: 50px;
+                }
+                
             }
         }
+        #boton__afuera{
+            display: none;
+        }
+        
     }
     footer{
         height: 10vh;
@@ -108,7 +147,11 @@
         &__contenedor{
             &__cards{
                 width: 425px;
-                height: 325px;
+                height: 300px;
+                p{
+                    margin: 15px;
+                    margin-top: 20px;
+                }
             }
         }
     }

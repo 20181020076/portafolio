@@ -1,29 +1,36 @@
 .curriculum{
-    display: flex;
-    min-height: 100hv;
-    flex-direction: row;
-    margin: 50px;
-    justify-content: space-around;
-    &__img{
-        margin-top: 40px;
-        margin-bottom: 10px;
+    &__principal{
         display: flex;
-        height: 45%;
-        justify-content: center;
-        align-items: center;
+        min-height: 100hv;
+        flex-direction: column;
+        margin: 50px;
+        justify-content: space-around;
+        &__img{
+            margin-top: 40px;
+            margin-bottom: 10px;
+            display: flex;
+            height: 45%;
+            justify-content: center;
+            align-items: center;
         
         
         
-        img{
-            width: 50%;
-            border: 2px solid black;
-            
-            
-        };
+            img{
+                width: 50%;
+                border: 2px solid black;
+                
+                
+            };  
     }
-    &__about{
+    &__text{
         text-align: center;
         margin-bottom: 0;
+        margin-top: 25px;
+        i{
+            margin-top: 25px;
+            margin-bottom: 25px;
+            font-size: 50px;
+        }
     }
     h1{
         text-align: center;
@@ -43,6 +50,9 @@
         margin: 20px;
         text-align: justify;
     }
+
+    }
+    
     &__boton{
         border-radius: 50px;
         min-width: 120px;

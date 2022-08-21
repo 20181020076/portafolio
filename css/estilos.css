@@ -104,44 +104,50 @@
   .inicio__boton {
     background-color: transparent; }
 
-.curriculum {
+.curriculum__principal {
   display: flex;
   min-height: 100hv;
-  flex-direction: row;
+  flex-direction: column;
   margin: 50px;
   justify-content: space-around; }
-  .curriculum__img {
+  .curriculum__principal__img {
     margin-top: 40px;
     margin-bottom: 10px;
     display: flex;
     height: 45%;
     justify-content: center;
     align-items: center; }
-    .curriculum__img img {
+    .curriculum__principal__img img {
       width: 50%;
       border: 2px solid black; }
-  .curriculum__about {
+  .curriculum__principal__text {
     text-align: center;
-    margin-bottom: 0; }
-  .curriculum h1 {
+    margin-bottom: 0;
+    margin-top: 25px; }
+    .curriculum__principal__text i {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-size: 50px; }
+  .curriculum__principal h1 {
     text-align: center;
     margin: 20px;
     margin-bottom: 0; }
-  .curriculum span {
+  .curriculum__principal span {
     color: pink; }
-  .curriculum h2 {
+  .curriculum__principal h2 {
     margin: 20px;
     margin-bottom: 0;
     margin-top: 30px; }
-  .curriculum__descripcion {
+  .curriculum__principal__descripcion {
     margin: 20px;
     text-align: justify; }
-  .curriculum__boton {
-    border-radius: 50px;
-    min-width: 120px;
-    width: 35%;
-    margin: 20px;
-    margin-bottom: 30px; }
+
+.curriculum__boton {
+  border-radius: 50px;
+  min-width: 120px;
+  width: 35%;
+  margin: 20px;
+  margin-bottom: 30px; }
 
 .services {
   display: flex;
@@ -320,15 +326,21 @@ footer {
       align-items: center;
       margin-right: 5px;
       margin-left: 5px; }
+      footer .footer__redes a {
+        color: white; }
 
 @media (min-width: 320px) and (max-width: 575px) {
   .curriculum {
     flex-direction: column;
     margin-top: 0; }
-    .curriculum__img {
+    .curriculum__principal__img {
       height: 200px; }
-      .curriculum__img img {
-        max-width: 160px; } }
+      .curriculum__principal__img img {
+        max-width: 160px; }
+      .curriculum__principal__img__boton {
+        display: none; }
+  .services__contenedor__cards p {
+    font-size: 15px; } }
 
 @media (min-width: 576px) {
   .header {
@@ -343,6 +355,9 @@ footer {
   .services__contenedor {
     flex-direction: row;
     flex-wrap: wrap; }
+    .services__contenedor__cards {
+      width: 325px;
+      height: 225px; }
   .projects__contenedor {
     flex-direction: row;
     flex-wrap: wrap;
@@ -350,8 +365,22 @@ footer {
     gap: 50px; }
   .curriculum {
     min-height: 80vh; }
-    .curriculum__img img {
-      width: 300px; }
+    .curriculum__principal {
+      flex-direction: row; }
+      .curriculum__principal__img {
+        flex-direction: column;
+        justify-content: space-around; }
+        .curriculum__principal__img img {
+          width: 300px; }
+        .curriculum__principal__img__boton {
+          margin-top: 50px; }
+      .curriculum__principal__text {
+        margin-left: 20px;
+        max-width: 700px; }
+        .curriculum__principal__text h1 {
+          margin-bottom: 50px; }
+    .curriculum #boton__afuera {
+      display: none; }
   footer {
     height: 10vh; }
     footer .footer p {
@@ -384,4 +413,7 @@ footer {
 @media (min-width: 1120px) {
   .services__contenedor__cards {
     width: 425px;
-    height: 325px; } }
+    height: 300px; }
+    .services__contenedor__cards p {
+      margin: 15px;
+      margin-top: 20px; } }
